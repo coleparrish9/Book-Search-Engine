@@ -50,7 +50,7 @@ const SignupForm = () => {
 
   return (
     <>
-    
+
       <Form noValidate validated={validated} onSubmit={handleFormSubmit}>
         {error && (
           <Alert
@@ -120,7 +120,7 @@ const SignupForm = () => {
           Submit
         </Button>
       </Form>
-      {data && <div>Success! You may now head to the homepage.</div>}
+      {data && <div>Awesome! You may now go to the homepage.</div>}
     </>
   );
 };
